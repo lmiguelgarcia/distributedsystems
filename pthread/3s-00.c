@@ -61,7 +61,7 @@ int main(int argc, char* argv[]) {
 	t1 = clock();
 	count_3s();
 	t2 = clock();
-	printf("[[3s-00] Elapsed time counting the number of 3s%f\n", (((float)t2 - (float)t1) / 1000000.0F ) * 1000);
+	printf("[[3s-00] Elapsed time counting the number of 3s %f\n", (((float)t2 - (float)t1) / 1000000.0F ) * 1000);
 	printf("Count by threads %d\n", count);
 	printf("Double check %d\n", double_count);
 	printf("Finishing 3s-00");
