@@ -20,3 +20,8 @@ Ejecuta el programa varias veces.
 >No, el valor de x es diferente.
 
 ### 2) Asignación - `3s-00.c`
+
+Adicionar las sentencias de codigo adecuadas que permitan determinar cuanto tiempo para el programa durante:
+
+- Inicialización del vector.
+- Contando el níumero de 3s en un vector dado.
