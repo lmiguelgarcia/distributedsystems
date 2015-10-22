@@ -21,7 +21,7 @@ Ejecuta el programa varias veces.
 
 ### 2) Asignación - `3s-00.c`
 
-Adicionar las sentencias de codigo adecuadas que permitan determinar cuanto tiempo pasa el programa durante:
+Adicionar las sentencias de código adecuadas que permitan determinar cuánto tiempo pasa el programa durante:
 
 - La inicialización del vector.
 - Contando el níumero de 3s en un vector dado.
