@@ -8,7 +8,7 @@ Remove the instructions related to `pthread_join` and explain:
 
 **Resultado:**
 
-Al quitar la función pthread_join, el programa ya no es determinístico, se generan resultados diferentes para x.
+Al quitar la función `pthread_join`, el programa ya no es determinístico, se generan resultados diferentes para x.
 
 - If it is unexpected, what did you think that happen?
  
@@ -19,6 +19,8 @@ Si, Teniendo en cuenta que pthread_join hace que el hilo se duerma para esperar 
 Try the program several times.
 
 - All the executions were equal?
-#Resultado:
+ 
+**Resultado:**
+
 No, el valor de x es diferente.
 
