@@ -1,4 +1,5 @@
 # Solución a preguntas sobre Principios de programación paralela
+Este directorio contiene las respuestas a las preguntas del trabajo de pthread y los archivos relacionados con los códigos de cada asignación.
 
 ### 1) Asignación - `thread_101_1.c`
 
