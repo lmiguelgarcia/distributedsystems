@@ -17,3 +17,4 @@ Try the program several times.
  
 >No, el valor de x es diferente.
 
+### 2) Assignment - `3s-00.c`
