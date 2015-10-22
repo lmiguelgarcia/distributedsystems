@@ -5,6 +5,7 @@
 Remove the instructions related to `pthread_join` and explain:
 
 - What is the program's behavior
+
 **Resultado:**
 Al quitar la función pthread_join, el programa ya no es determinístico, se generan resultados diferentes para x.
 
