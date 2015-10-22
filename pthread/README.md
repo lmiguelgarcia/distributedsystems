@@ -1,10 +1,10 @@
-# Solución a preguntas sobre Principles of Parallel Programming - Chapter One
+# Solución a preguntas sobre Principios de programación paralela
 
-### 1) Assignment - `thread_101_1.c`
+### 1) Asignación - `thread_101_1.c`
 
-Remove the instructions related to `pthread_join` and explain:
+Quitar las instrucciones relacionadas con `pthread_join` y explicar:
 
-- What is the program's behavior
+- Cúal es el comportamiento del programa?
 
 >Al quitar la función `pthread_join`, el programa ya no es determinístico, se generan resultados diferentes para x.
 
