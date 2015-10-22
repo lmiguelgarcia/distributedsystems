@@ -1,4 +1,4 @@
-# Solución a preguntas sobre Principios de programación paralela
+# Solución a preguntas sobre [Principios de programación paralela] (https://github.com/josanabr/distributedsystems/tree/master/threads)
 Este directorio contiene las respuestas a las preguntas del trabajo de pthread y los archivos relacionados con los códigos de cada asignación.
 
 ### 1) Asignación - `thread_101_1.c`
