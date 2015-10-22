@@ -24,6 +24,6 @@ Ejecuta el programa varias veces.
 Adicionar las sentencias de código adecuadas que permitan determinar cuánto tiempo pasa el programa durante:
 
 - La inicialización del vector.
-- Contando el níumero de 3s en un vector dado.
+- Contando el número de 3s en un vector dado.
 
 >La solución a este punto está en el archivo de código `3s-00.c`
