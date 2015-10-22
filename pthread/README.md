@@ -11,7 +11,7 @@ Quitar las instrucciones relacionadas con `pthread_join` y explicar:
 
 - Si es inesperado, Qúe piensas que ha pasado?
  
->Si, Teniendo en cuenta que `pthread_join` hace que el hilo se duerma para esperar que el otro termine y retornar el valor final, al quitarlo el valor nunca es sincronizado por lo que el valor de x es diferente en cada ejecución.
+>Si, teniendo en cuenta que `pthread_join` hace que el hilo se duerma para esperar que el otro termine y retornar el valor final, al quitarlo el valor nunca es sincronizado por lo que el valor de x es diferente en cada ejecución.
 
 Ejecuta el programa varias veces.
 
