@@ -52,4 +52,4 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 - ¿Qué está mal con este código esta vez?
 
->En este programa se adiciono la parte del pthread_join para que todos los hilos terminen, pero sigue manteniendo el problema con el acceso concurrente a la misma variable por parte de los hilos.
+>En este programa se adiciono la parte del pthread_join para que todos los hilos terminen, pero sigue manteniendo el problema con el acceso concurrente a la misma variable por parte de los hilos, y hasta el momento no se obtienen los valores esperados.
