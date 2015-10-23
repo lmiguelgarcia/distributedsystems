@@ -44,3 +44,10 @@ Responder las siguientes preguntas:
 
 >El programa es incorrecto, porque el conteo que se imprime en pantalla de 3s que se hace por medio hilos es diferente a la que se realiza durante el proceso de "initialize_vector en la variable doble_check que es el esperado,  en el programa se detectan dos problemas 1) No se hace el pthread_join para que terminen los hilos y se sincronicen los valores  y 2) Se trabaja sobre la misma variable y no se maneja alguna tecnica para la exlusión mutua, por lo que los valores pueden tener problemas de concurrencia y ser alterados al mismo tiempo por uno o varios hilos.
 
+###4) Asignación - `3s-02.c`
+
+Incluir las sentencias de código que permitan estimar cuánto tiempo se toma cada hilo en contar el número de 3s en un vector dado.
+
+- ¿Qué está mal con este código esta vez?
+
+
