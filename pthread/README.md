@@ -53,3 +53,10 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 - ¿Qué está mal con este código esta vez?
 
 >En este programa se adiciono la parte del pthread_join para que todos los hilos terminen, pero sigue manteniendo el problema con el acceso concurrente a la misma variable por parte de los hilos, y hasta el momento no se obtienen los valores esperados.
+
+###5) Asignación - `3s-03.c`
+
+- Identificar poque este programa ahora si lo hace bien.
+- Incluir las sentencias de código que permitan estimar cuánto tiempo se toma cada hilo en contar el número de 3s en un segmento del vector completo
+- Cúanto tiempo se toma para obtener la cantidad total de 3s en el todo el vector.
+
