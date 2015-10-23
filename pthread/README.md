@@ -72,7 +72,7 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 - Cúal es la diferencia entre el 3s-03.c y el 3s-04.c?
 
->
+>La diferencia está en que en el programa 3s-03.c cada hilo bloquea el acceso a la variable count durante todo el recorrido del segmento asignado, mientras que en el programa 3s-04.c la variable solo es bloqueada cuando el hilo ha encontrado un 3, esto es muy significativo en cuanto a rendimiento,teniendo en cuenta que en el programa  3s-03.c lo bloquea durante todo el for, evitando que hilos que ya han terminado puedan acceder y colocar su valor.
 
 - Comparar el tiempo transcurrido por hilo durante el proceso de conteo y el tiempo total que todos los hilos tomaron para contar el número de 3s en toda la matriz. Ejecutar todos los programas (3s-03 y 3s-04) tres veces y calcular el tiempo promedio por programa. Presente sus resultados y explicarlos.
  
