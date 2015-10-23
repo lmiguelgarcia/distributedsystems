@@ -78,4 +78,13 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
  
 >
 
+###7) Asignación - `3s-05.c`
+
+- ¿Dónde reside el éxito de este programa?
+ 
+>
+
+- Compare la ejecución de este programa y compare su rendimiento con las instancias previas y escriba sus observaciones.
+
+
 
