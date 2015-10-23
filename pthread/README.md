@@ -34,7 +34,7 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 >La solución a este punto está en el archivo de código `3s-01.c`
 
-Aesponder las siguientes preguntas:
+Responder las siguientes preguntas:
 
 - Cuántos elementos tiene el vector grande?
 
