@@ -32,6 +32,8 @@ Adicionar las sentencias de código adecuadas que permitan determinar cuánto ti
 
 Incluir las sentencias de código que permitan estimar cuánto tiempo se toma cada hilo en contar el número de 3s en un vector dado.
 
+>La solución a este punto está en el archivo de código `3s-01.c`
+
 Aesponder las siguientes preguntas:
 
 - Cuántos elementos tiene el vector grande?
