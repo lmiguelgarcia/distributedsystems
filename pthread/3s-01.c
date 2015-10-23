@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
 		t3 = clock();
 		err = pthread_create(&tid[i], NULL, &count3s_thread, &i);
 		t4 = clock();
-	printf("[[3s-01] Elapsed time counting the number of 3s by the threads %d %f\n",i, (((float)t4 - (float)t3) / 1000000.0F ) * 1000);
+	printf("[[3s-01] Elapsed time counting the number of 3s by the thread %d is %f\n",i, (((float)t4 - (float)t3) / 1000000.0F ) * 1000);
 		if (err != 0) 
 			printf("[3s-01] Can't create a thread: [%d]\n", i);
 		else
@@ -84,5 +84,4 @@ int main(int argc, char* argv[]) {
 
 	return 0;
 }
-
 
