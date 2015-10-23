@@ -38,6 +38,6 @@ Responder las siguientes preguntas:
 
 - Cuántos elementos tiene el vector grande?
 
-- El programa es correcto? Wué hay de malo en el? Que valor se obtiene y cuál es el esperado?
+- El programa es correcto? Qué hay de malo en el? Qué valor se obtiene y cuál es el esperado?
 
 
