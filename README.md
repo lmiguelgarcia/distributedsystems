@@ -7,10 +7,9 @@
 | Miguel García 
 
 
-<p style='color:red'>This is some red text.</p>
 Este repositorio contiene directorios con algunos ejemplos tratados en sistemas distribuidos como:
 
 
 
-- Pthread
+- Pthread ** Para las pruebas utilizamos el VECTOR_SIZE de 100, para que no se nos colgara la maquina en el procesamiento**
 - .....
