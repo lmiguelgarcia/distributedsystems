@@ -62,8 +62,6 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 - Incluir las sentencias de código que permitan estimar cuánto tiempo se toma cada hilo en contar el número de 3s en un segmento del vector completo.
 
->
-
 - Cúanto tiempo se toma para obtener la cantidad total de 3s en el todo el vector.
 
->
+>La solución a este punto está en el archivo de código `3s-03.c`
