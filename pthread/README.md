@@ -67,3 +67,15 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 - Cúanto tiempo se toma para obtener la cantidad total de 3s en el todo el vector.
 
 >La solución a este punto está en el archivo de código `3s-03.c`
+
+###6) Asignación - `3s-04.c`
+
+- Cúal es la diferencia entre el 3s-03.c y el 3s-04.c?
+
+>
+
+- Comparar el tiempo transcurrido por hilo durante el proceso de conteo y el tiempo total que todos los hilos tomaron para contar el número de 3s en toda la matriz. Ejecutar todos los programas (3s-03 y 3s-04) tres veces y calcular el tiempo promedio por programa. Presente sus resultados y explicarlos.
+ 
+>
+
+
