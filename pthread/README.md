@@ -56,7 +56,14 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 ###5) Asignación - `3s-03.c`
 
-- Identificar poque este programa ahora si lo hace bien.
-- Incluir las sentencias de código que permitan estimar cuánto tiempo se toma cada hilo en contar el número de 3s en un segmento del vector completo
+- Identificar porque este programa ahora si lo hace bien.
+ 
+>El programa funciona correctamente porque se utilizan mecanismos para el acceso controlado, las funciones para este manejo de zonas de acceso exclusivo tienen el prefijo pthread_mutex, donde se bloquea el acceso de los demás hilos a la variable hasta que finaliza el proceso y se desbloquea para que el siguiente hilo puede acceder.
+
+- Incluir las sentencias de código que permitan estimar cuánto tiempo se toma cada hilo en contar el número de 3s en un segmento del vector completo.
+
+>
+
 - Cúanto tiempo se toma para obtener la cantidad total de 3s en el todo el vector.
 
+>
