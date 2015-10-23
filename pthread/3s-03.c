@@ -18,7 +18,7 @@ int i;
 int length_per_thread = length/max_threads;
 // Cast -> http://stackoverflow.com/questions/1640423/error-cast-from-void-to-int-loses-precision
 //int id = *((int*)(&arg));
-int id = (int)arg;
+int id = *((int*)(arg));
 int start = id * length_per_thread;
 printf("\tThread [%d] starts [%d] length [%d]\n",id, start, length_per_thread);
 pthread_mutex_lock(&mutex);
@@ -66,7 +66,7 @@ fflush(stdout);
 t1 = clock();
 pthread_mutex_init(&mutex,NULL);
 while (i < max_threads) {
-err = pthread_create(&tid[i], NULL, &count3s_thread, (void*)i);
+err = pthread_create(&tid[i], NULL, &count3s_thread, &i);
 if (err != 0)
 printf("[3s-03] Can't create a thread: [%d]\n", i);
 else
