@@ -37,7 +37,10 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 Responder las siguientes preguntas:
 
 - Cuántos elementos tiene el vector grande?
+
 >Tiene 100 elementos
+
 - El programa es correcto? Qué hay de malo en el? Qué valor se obtiene y cuál es el esperado?
+
 >El programa no es correcto,...
 
