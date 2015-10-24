@@ -101,6 +101,14 @@ El tiempo de ejecución total en el programa 3s-04 fue menor porque retiene meno
 - Implementar Fourth Solution: Try 4, que se encuentra en la página 20 y comparar el rendimiento de su aplicación con los programas anteriores.
 
 > 
+| No Ejecucion  | 3s-03      | 3s-04
+| ------------- |------------|------------- 
+| 1             | 12.1510    | 12.2110
+| 2             | 15.0010    | 12.7300
+| 3             | 12.4820    | 12.5820
+| Promedio      | 13.2113    | 12.5077
+
+> 
 | ------------- |------------|-------------|----------------|----------------
 | No Ejecucion  | 3s-03      | 3s-04       |  3s-05 4 Hilos | 3s-05 8 Hilos
 | 1             | 12.1510    | 12.2110     |  3,5760        | 8,9680
