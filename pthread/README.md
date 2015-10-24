@@ -110,3 +110,5 @@ El tiempo de ejecución total en el programa 3s-04 fue menor porque retiene meno
 | Promedio      | 13.2113    | 12.5077     |  3,4973        | 8,3010 
 
 Al implementar la referencia a la función private_count, tiene limitaciones ya que depende de las especificaciones de hardware, por que la memoria cache L2 tiene espacio insuficiente para almacenar el tamaño del arreglo.
+
+El archivo original se implementa a 4 hilos optimizando el rendimiento en la utilizacion de los lugares de la linea  de cache.
