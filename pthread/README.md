@@ -76,18 +76,14 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 - Comparar el tiempo transcurrido por hilo durante el proceso de conteo y el tiempo total que todos los hilos tomaron para contar el número de 3s en toda la matriz. Ejecutar todos los programas (3s-03 y 3s-04) tres veces y calcular el tiempo promedio por programa. Presente sus resultados y explicarlos.
  
-> |	|3s-03	|3s-04
-|1	 |12.1510 	|12.2110
-|2	 |15.0010 	|12.7300
-|3	|12.4820	|12.5820
-|PROMEDIO	 |13.2113 	|12.5077
-
+> 
 | No Ejecucion  | 3s-03      | 3s-04
 | ------------- |------------|------------- 
 | 1             | 12.1510    | 12.2110
 | 2             | 15.0010    | 12.7300
 | 3             | 12.4820    | 12.5820
 | Promedio      | 13.2113    | 12.5077
+El tiempo de ejecución total en el programa 3s-04 fue menor porque retiene menos el bloqueo de la variable, solo cuando es encontrado un 3, por lo que es mas probable que otros hilos puedan acceder a la variable, sin retener tanto tiempo el bloqueo.
 
 
 ###7) Asignación - `3s-05.c`
