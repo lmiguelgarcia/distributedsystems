@@ -82,12 +82,12 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 |3	|12.4820	|12.5820
 |PROMEDIO	 |13.2113 	|12.5077
 
-| No Ejecucion  | 3s-03    
-| ------------- |------------
-| 1             | 12.1510
-| 2             | 15.0010
-| 3             | 12.4820
-| Promedio      | 13.2113
+| No Ejecucion  | 3s-03      | 3s-04
+| ------------- |------------|------------- 
+| 1             | 12.1510    | 12.2110
+| 2             | 15.0010    | 12.7300
+| 3             | 12.4820    | 12.5820
+| Promedio      | 13.2113    | 12.5077
 
 
 ###7) Asignación - `3s-05.c`
