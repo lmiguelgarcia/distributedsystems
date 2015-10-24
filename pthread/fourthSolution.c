@@ -69,11 +69,11 @@ int main(int argc, char *argv[]) {
 	} else {
 		max_threads = MAX_THREADS;
 	}
-	printf("[3s-05] Using %d threads\n",max_threads);
+	printf("[fourthSolution] Using %d threads\n",max_threads);
 	// random seed
 	// http://stackoverflow.com/questions/822323/how-to-generate-a-random-number-in-c
 	srand(time(NULL));
-	printf("*** 3s-05 ***\n");
+	printf("*** fourthSolution ***\n");
 	printf("Initializing vector... ");
 	fflush(stdout);
 	initialize_vector();
@@ -85,9 +85,9 @@ int main(int argc, char *argv[]) {
 		private_count[i].value = 0;
 		err = pthread_create(&tid[i], NULL, &count3s_thread, &i);
 		if (err != 0) 
-			printf("[3s-05] Can't create a thread: [%d]\n", i);
+			printf("[fourthSolution] Can't create a thread: [%d]\n", i);
 		else
-			printf("[3s-05] Thread created!\n");
+			printf("[fourthSolution] Thread created!\n");
 		i++;
 	}
 	// https://computing.llnl.gov/tutorials/pthreads/#Joining
@@ -103,13 +103,12 @@ int main(int argc, char *argv[]) {
 			printf("Thread [%d] exited with status [%ld]\n", i, (long)status);
 		}
 	}
-	printf("[3s-05] Count by threads %d\n", count);
-	printf("[3s-05] Double check %d\n", double_count);
+	printf("[fourthSolution] Count by threads %d\n", count);
+	printf("[fourthSolution] Double check %d\n", double_count);
 	pthread_mutex_destroy(&mutex);
 	t2 = clock();
-	//printf("[[3s-05] Elapsed time %ld ms\n", ((double)t2 - t1) / CLOCKS_PER_SEC * 1000);
-	printf("[[3s-05] Elapsed time %f\n", (((float)t2 - (float)t1) / 1000000.0F ) * 1000);
+	//printf("[[fourthSolution] Elapsed time %ld ms\n", ((double)t2 - t1) / CLOCKS_PER_SEC * 1000);
+	printf("[[fourthSolution] Elapsed time %f\n", (((float)t2 - (float)t1) / 1000000.0F ) * 1000);
 	pthread_exit(NULL);
 	return 0;
 }
-
