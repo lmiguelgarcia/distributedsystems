@@ -107,4 +107,5 @@ El tiempo de ejecución total en el programa 3s-04 fue menor porque retiene meno
 | 2             | 15.0010    | 12.7300     |  3,6260        | 9,2550
 | 3             | 12.4820    | 12.5820     |  3,2900        | 6,6800
 | Promedio      | 13.2113    | 12.5077     |  3,4973        | 8,3010 
+
 El tiempo de ejecución total en el programa 3s-04 fue menor porque retiene menos el bloqueo de la variable, solo cuando es encontrado un 3, por lo que es mas probable que otros hilos puedan acceder a la variable, sin retener tanto tiempo el bloqueo.
