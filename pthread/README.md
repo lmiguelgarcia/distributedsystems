@@ -86,7 +86,7 @@ Incluir las sentencias de código que permitan estimar cuánto tiempo se toma ca
 
 - Compare la ejecución de este programa y compare su rendimiento con las instancias previas y escriba sus observaciones.
 
->La ejecución de este último programa tiene un rendimiento mayor a los anteriores, ya que se elimina la tanto la sobrecarga como la contencion del bloqueo o exclusion mutua (en este último programa es utilizado para bloquear la variable en el momento necesario, cuando ya se tiene el conteo total, teniendo en cuenta que en los anteriores se retenia el bloqueo en toda la ejecucion del ciclo por lo que se degrada el rendimiento)
+>La ejecución de este último programa tiene un rendimiento mayor a los anteriores, ya que se elimina tanto la sobrecarga como la contencion del bloqueo o exclusion mutua (en este último programa es utilizado para bloquear la variable en el momento necesario, cuando ya se tiene el conteo total, teniendo en cuenta que en los anteriores se retenia el bloqueo en toda la ejecucion del ciclo por lo que se degrada el rendimiento)
 
 ###8) Asignación Final 
 
