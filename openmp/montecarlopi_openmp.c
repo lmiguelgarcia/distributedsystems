@@ -56,7 +56,7 @@ int main ()
 
    seed(-r, r);  // The circle and square are centered at the origin   
 
-   #pragma omp parallel for reduction(+:Ncirc) private(i,x,y,test)
+   #pragma omp parallel for reduction(+:Ncirc) private(i,x,y,test) num_threads(4)
     for(i=0;i<num_trials; i++)   
     {   
       #pragma omp critical
