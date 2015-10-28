@@ -3,4 +3,4 @@ Este directorio contiene las respuestas a las preguntas del trabajo de OpenMP y 
 
 ### 1) Asignación - `pi.c`
 
-> La sollución a este punto esta en el archivo pi_.c
+> La sollución a este punto esta en el archivo pi_openmp.c
