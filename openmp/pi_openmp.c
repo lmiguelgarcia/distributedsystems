@@ -11,7 +11,7 @@ void main() {
 	double sum = 0.0;
 	step = 1.0/(double) num_steps;
 	
-	#pragma omp parallel for private(i,x) reduction(+:sum)
+	#pragma omp parallel for private(i,x) reduction(+:sum) num_threads(4)
 	for (i = 0; i < num_steps; i++){
 		x = (i + 0.5)*step;
 		sum = sum + 4.0/(1.0 + x*x);
