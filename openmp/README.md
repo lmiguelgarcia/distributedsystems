@@ -5,6 +5,6 @@ Este directorio contiene las respuestas a las preguntas del trabajo de OpenMP y 
 
 > La solución a este punto esta en el archivo pi_openmp.c
 
-### 1) Asignación - `montecarlopi.c`
+### 2) Asignación - `montecarlopi.c`
 
 > La solución a este punto esta en el archivo montecarlopi_openmp.c
