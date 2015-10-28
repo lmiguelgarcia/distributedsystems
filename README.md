@@ -12,4 +12,4 @@ Este repositorio contiene directorios con algunos ejemplos tratados en sistemas 
 
 
 - Pthread
-- .....
+- OpenMP
