@@ -27,7 +27,7 @@ example7:
 mpi	: dendrecv
 	mpirun --mca btl_tcp_if_exclude lo,eth0 -np 2 --hostfile machinefile /shared/ta1
 dendrecv:
-	mpicc tarea1.c -o /shared/mpi
+	mpicc Assignment_Sendrecv.c -o /shared/mpi
 de1: dead1
 	mpirun --mca btl_tcp_if_exclude lo,eth0 -np 2 --hostfile machinefile /shared/de1
 dead1:
