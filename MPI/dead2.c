@@ -33,3 +33,4 @@ int main(int argc,char *argv[]){
 	printf("Task %d: Received  %d char(s) from task %d with tag %d \n",rank, count, Stat.MPI_SOURCE, Stat.MPI_TAG);
 
 	MPI_Finalize();
+}
