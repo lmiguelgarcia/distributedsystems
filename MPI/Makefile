@@ -24,10 +24,10 @@ ex7: example7
 	mpirun --mca btl_tcp_if_exclude lo,eth0 -np 8 --hostfile machinefile /shared/ex7
 example7:
 	mpicc mpiExample7.c -o /shared/ex7
-ta1: tarea1
+mpi	: dendrecv
 	mpirun --mca btl_tcp_if_exclude lo,eth0 -np 2 --hostfile machinefile /shared/ta1
-tarea1:
-	mpicc tarea1.c -o /shared/ta1
+dendrecv:
+	mpicc tarea1.c -o /shared/mpi
 de1: dead1
 	mpirun --mca btl_tcp_if_exclude lo,eth0 -np 2 --hostfile machinefile /shared/de1
 dead1:
